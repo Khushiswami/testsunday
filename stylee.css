@@ -1,0 +1,131 @@
+/* navbar section */
+.navbar {
+  position: fixed;
+  top: 0%;
+   background-color: #0d1d3b;
+  width: 100%;
+  box-shadow: 0px 0px 8px rgb(0 0 0 /6%);
+}
+ul {
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-top: 0%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 25px;
+  background-color: #0d1d3b;
+  text-decoration: none;
+  color: white;
+}
+
+/* banner section */
+.container {
+  width: 100%;
+  margin: 2% 0%;
+  padding: 6% 0%;
+}
+.banner {
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    /* background-color: #dcdfb7; */
+    background-image: url(port.webp);
+    background-size: cover;
+    padding-top: 15%;
+
+}
+
+  .banner .image img {
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+
+.banner .content {
+  font-family: "Lato", sans-serif;
+  padding: 6% 0%;
+}
+
+.banner .content .title {
+  font-size: 50px;
+}
+.banner .content .title span {
+  font-weight: 800;
+  color: #b8d1ef;
+}
+
+.banner .content .desc {
+  font-size: 26px;
+}
+
+.banner .content .btn {
+  background-color: #6b8363;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 2% 5%;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+}
+
+/* about me section */
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.about .image img {
+  width: 80%;
+}
+
+.about .content {
+  font-family: "Lato", sans-serif;
+  padding: 20% 13%;
+}
+
+.about .content .title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.about .content .desc {
+  font-size: 19px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
